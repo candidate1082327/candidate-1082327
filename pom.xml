@@ -121,10 +121,12 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <includes>
-                        <include>**/*Test.java</include>
-                        <include>**/Test*.java</include>
+                        
+                       <include>**/*page*.java</include>
+                        <include>**/Page*.java</include>
                         <include>**/*TestSuite.java</include>
                         <include>**/When*.java</include>
+
                     </includes>
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
